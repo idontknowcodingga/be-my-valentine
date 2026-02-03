@@ -2,8 +2,10 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Valentine\'s Surprise',
-  description: 'Will you be my Valentine?',
+  title: "Be My Valentine ❤️",
+  icons: {
+  icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-size='90'>❤️</text></svg>",
+  },
 };
 
 export default function RootLayout({
