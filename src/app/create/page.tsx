@@ -14,7 +14,7 @@ export default function CreatePage() {
   const router = useRouter();
 
   const baseUrl = typeof window !== 'undefined' ? window.location.origin : '';
-  const proposalLink = `${baseUrl}/?name=${encodeURIComponent(name)}`;
+  const proposalLink = `${baseUrl}/?myeverything=${encodeURIComponent(name)}`;
 
   const handleCopy = () => {
     navigator.clipboard.writeText(proposalLink);
@@ -23,7 +23,7 @@ export default function CreatePage() {
   };
 
   const handleGo = () => {
-    router.push(`/?name=${encodeURIComponent(name)}`);
+    router.push(`/?myeverything=${encodeURIComponent(name)}`);
   };
 
   return (

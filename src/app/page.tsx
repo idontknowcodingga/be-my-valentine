@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button";
 
 function ValentineContent() {
   const searchParams = useSearchParams();
-  const name = searchParams.get('name') || "";
+  const name = searchParams.get('myeverything') || "";
 
   return (
     <main className="min-h-screen relative">
@@ -22,7 +22,7 @@ function ValentineContent() {
         </Link>
       </div>
     </main>
-  );
+  );  
 }
 
 export default function Home() {
