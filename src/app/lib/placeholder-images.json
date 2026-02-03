@@ -1,0 +1,11 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "valentine-hero",
+      "description": "Cute romantic background",
+      "imageUrl": "https://picsum.photos/seed/love123/800/600",
+      "imageHint": "romantic heart"
+    }
+  ]
+}

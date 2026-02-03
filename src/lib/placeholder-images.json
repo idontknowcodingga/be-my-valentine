@@ -1,0 +1,16 @@
+{
+  "placeholderImages": [
+    {
+      "id": "valentine-hero",
+      "description": "Cute romantic background",
+      "imageUrl": "https://images.unsplash.com/photo-1767455380912-27e5dabf0837?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxyb21hbnRpYyUyMGhlYXJ0fGVufDB8fHx8MTc3MDEwMDQ1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "romantic heart"
+    },
+    {
+      "id": "yay-gif",
+      "description": "Happy dancing bear gif",
+      "imageUrl": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGcxdmU3NGp4OGFiM3A0Mmg1dGMxdHhhamE4cjM1aXRjbXR0ZHRvZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13hxeOYjoTWtK8/giphy.gif",
+      "imageHint": "dancing bear"
+    }
+  ]
+}
